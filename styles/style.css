@@ -116,7 +116,7 @@
   max-width: 491px;
   width: 355px;
   height: 117px;
-  margin-top: 55px;
+  margin-top: 50px;
   align-self: end;
   margin-right: 10px;
 }
@@ -272,7 +272,7 @@
   }
 
   .main {
-    margin-bottom: 35px;
+    margin-bottom: 60px;
     gap: 80px;
   }
 
