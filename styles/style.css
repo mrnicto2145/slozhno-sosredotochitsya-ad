@@ -116,7 +116,7 @@
   max-width: 491px;
   width: 355px;
   height: 117px;
-  margin-top: 60px;
+  margin-top: 55px;
   align-self: end;
   margin-right: 10px;
 }
@@ -152,6 +152,12 @@
 }
 
 .sp-section__header {
+  font-weight: bold;
+  color: var(--subheader-color);
+  background-color: var(--title-background-fill);
+}
+
+.sp-section__header2 {
   font-weight: bold;
   color: var(--subheader-color);
   background-color: var(--title-background-fill);
