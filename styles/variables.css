@@ -15,8 +15,6 @@
   --color-black-1: #000028;
   --color-black-2: #353430;
 
-  --dark-image: "/images/cover-image-dark.png";
-
   --main-header-color: var(--color-purple-1);
   --title-background-fill: var(--color-pink-1);
   --theme-switch-color: var(--color-pink-1);
