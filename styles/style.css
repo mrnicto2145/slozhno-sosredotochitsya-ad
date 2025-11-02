@@ -7,6 +7,7 @@
   font-size: 18px;
   background-attachment: fixed;
   width: 375px;
+  line-height: 1.25;
   background-color: var(--background-main-color);
 }
 
@@ -94,9 +95,8 @@
   text-shadow: 4px 4px var(--title-background-fill);
   font-size: 116px;
   margin-top: 65px;
+  line-height: 0.85;
   font-weight: bold;
-  justify-self: center;
-  align-self: start;
 }
 
 .second-title {
@@ -204,7 +204,7 @@
 
 .footer__header {
   color: var(--main-header-color);
-  text-shadow: 4px 4px var(--title-background-fill);
+  text-shadow: 1px 1px var(--title-background-fill);
   font-size: 116px;
   font-weight: bold;
 }
@@ -257,6 +257,20 @@
 @media (min-width: 1024px) {
   .page {
     width: 1024px;
+  }
+
+  .header {
+    padding:20px;
+  }
+
+  .dec1 {
+    top: 20px;
+    right: 20px;
+  }
+
+  .dec2 {
+    left: 20px;
+    bottom: 20px;
   }
 
   .header__theme-menu {
