@@ -224,7 +224,7 @@
   .page {
     width: 768px;
   }
-  
+
   .header{
     margin-bottom: 85px;
   }
@@ -249,7 +249,8 @@
 
   .section {
     display: flex;
-    margin:10px;
+    margin-left: 10px;
+    margin-right: 10px;
     gap: 20px;
   }
   
@@ -301,6 +302,7 @@
     margin: 0;
     width: 230px;
     height: 26px;
+    gap: 10px;
     top: 20px;
     left: 397px;
   }
