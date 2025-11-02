@@ -7,7 +7,7 @@
   font-size: 18px;
   background-attachment: fixed;
   width: 375px;
-  line-height: 1.25;
+  line-height: 23px;
   background-color: var(--background-main-color);
 }
 
@@ -69,7 +69,7 @@
 
 .header__theme-menu {
   align-self: end;
-  margin:39px 0 0 0;
+  margin: 75px 0 0 0;
   width: 70px;
   height: 98px;
 }
