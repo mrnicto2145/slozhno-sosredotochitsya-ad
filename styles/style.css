@@ -2,4 +2,274 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  font-family: 'IBM Plex mono';
+  color: var(--text-color);
+  font-size: 18px;
+  background-color: var(--subheader-color);
+}
+
+.header{
+  margin: 0 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: url("/images/cover-image-dark.png");
+  background-attachment: fixed;
+  height: 668px;
+  padding: 10px;
+}
+
+.decoration{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.dec1{
+  top: 10px;
+  right: 10px;
+  border-top: 1px solid var(--title-background-fill);
+  border-right: 1px solid var(--title-background-fill);
+}
+
+.dec2{
+  left: 10px;
+  bottom: 10px;
+  border-left: 1px solid var(--title-background-fill);
+  border-bottom: 1px solid var(--title-background-fill);
+}
+
+.lamp{
+  justify-self: start;
+  align-self: end;
+}
+
+.lamp::after{
+  content:'';
+}
+
+.lamp-text{
+  color: var(--title-background-fill);
+}
+
+.header__theme-menu{
+  align-self: end;
+  margin:39px 0 0 0;
+  width: 70px;
+  height: 98px;
+}
+
+.header__theme-menu-list{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 70px;
+  grid-template-rows: repeat(3,1fr);
+  gap: 10px;
+}
+
+.header__theme-menu-item{
+  align-self: center;
+  justify-self: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__theme-menu-button{
+  background-color: transparent;
+  border: none;
+  color: var(--title-background-fill);
+}
+
+.header__theme-menu-item:has(.header__theme-menu-button_active){
+  outline: 1px solid var(--title-background-fill);
+}
+
+.header__main-title{
+  color: var(--main-header-color);
+  text-shadow: 4px 4px var(--title-background-fill);
+  font-size: 116px;
+  font-weight: bold;
+  justify-self: center;
+  align-self: start;
+}
+
+.second-title{
+  background-color: var(--title-background-fill);
+  max-width: 491px;
+  width: 355px;
+  height: 117px;
+  align-self: end;
+}
+
+.header__second-title{
+  color: var(--subheader-color);
+}
+
+.main{
+  margin: 0 0 40px 0;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.section{
+  margin: 0 0 40px 0;
+}
+
+.section-header{
+  color: var(--title-background-fill);
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.section-list{
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 20px;
+}
+
+.section-list__item__header{
+  color: var(--subheader-color);
+  background-color: var(--title-background-fill);
+  margin: 0 0 10px 0;
+}
+
+.sp-section__header{
+  color: var(--subheader-color);
+  background-color: var(--title-background-fill);
+  margin: 0;
+}
+
+.hint-header{
+  font-weight: normal;
+}
+
+.hyperlink{
+  text-decoration: none;
+  text-shadow: 2px 2px var(--title-background-fill);
+}
+
+.gallery{
+  display: grid;
+  grid-template-areas:"image1"
+  "image2"
+  "image3"
+  "image4"
+  "image5";
+  gap:10px;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image1{
+  grid-area: image1;
+}
+.image2{
+  grid-area: image2;
+}
+.image3{
+  grid-area: image3;
+}
+.image4{
+  grid-area: image4;
+}
+.image5{
+  grid-area: image5;
+}
+
+.footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  height: 668px;
+  position: relative;
+}
+
+.footer__header{
+  color: var(--main-header-color);
+  text-shadow: 4px 4px var(--title-background-fill);
+  font-size: 116px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px){
+  .header{
+    height: 1024px;
+  }
+
+  .header__theme-menu{
+    margin-top: 146px; 
+  }
+
+  .header__main-title{
+    margin-top: 173px;
+    font-size: 120px;
+  }  
+
+  .second-title{
+    margin-top: 162px;
+  }
+
+  .main{
+    gap: 80px;
+  }
+
+  .section{
+    display: flex;
+    margin:10px;
+    gap: 20px;
+  }
+  
+  .reason-section, .image-section{
+    flex-direction: column;
+  }
+
+  .section-header{
+    min-width: 236px;
+  }
+
+  .gallery{
+    grid-template-areas: "image1 image1 image2"
+    "image3 image4 image2"
+    "image3 image5 image5";
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1024px){
+
+  .header__theme-menu{
+    position: absolute;
+    margin: 0;
+    width: 230px;
+    height: 26px;
+    top: 10px;
+    left: calc((100% - 230px)/2);
+  }
+  
+  .header__theme-menu-list{
+    grid-template: 100% / repeat(3,1fr);
+  }
+
+  .header__main-title{
+    font-size: 157px;
+  }
+
+  .second-title{
+    width: 491px;
+    height: 71px;
+  }
+
+  .reason-section > .section-list {
+    grid-template: 100% / repeat(3,1fr) ;
+  }
 }
