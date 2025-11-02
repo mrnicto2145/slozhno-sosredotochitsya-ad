@@ -7,7 +7,7 @@
   font-size: 18px;
   background-attachment: fixed;
   width: 375px;
-  line-height: 23.5px;
+  line-height: 23px;
   background-color: var(--background-main-color);
 }
 
@@ -271,6 +271,10 @@
     "image3 image5 image5";
     gap: 20px;
   }
+
+  .footer__header {
+    font-size: 120px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -330,5 +334,9 @@
 
   .reason-section > .section-list {
     grid-template: 100% / repeat(3,1fr) ;
+  }
+
+  .footer__header {
+    font-size: 157px;
   }
 }
