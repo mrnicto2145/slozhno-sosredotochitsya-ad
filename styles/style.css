@@ -6,6 +6,7 @@
   color: var(--text-color);
   font-size: 18px;
   background-attachment: fixed;
+  width: 735px;
   background-color: var(--background-main-color);
 }
 
@@ -203,6 +204,10 @@
 }
 
 @media (min-width: 768px) {
+  .page{
+    width: 768px;
+  }
+
   .header {
     height: 1024px;
   }
@@ -247,6 +252,9 @@
 }
 
 @media (min-width: 1024px) {
+  .page{
+    width: 1024px;
+  }
 
   .header__theme-menu {
     position: absolute;
