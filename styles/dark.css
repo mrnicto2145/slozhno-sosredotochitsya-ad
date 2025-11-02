@@ -24,3 +24,10 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
+.theme-dark .header {
+  background-image: url(/images/cover-image-dark.png);
+}
+
+.theme-light .lamp {
+  display: block;
+}
