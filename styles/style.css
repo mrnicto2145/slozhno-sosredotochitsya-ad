@@ -151,6 +151,7 @@
 }
 
 .sp-section__header {
+  font-weight: bold;
   color: var(--subheader-color);
   background-color: var(--title-background-fill);
   margin: 0;
@@ -253,6 +254,7 @@
 
   .section-header {
     max-width: 236px;
+    min-width: 236px;
   }
 
   .gallery {
@@ -314,6 +316,7 @@
 
   .section-header {
     max-width: 315px;
+    min-width: 315px;
   }
 
   .reason-section > .section-list {
