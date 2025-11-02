@@ -7,7 +7,7 @@
   font-size: 18px;
   background-attachment: fixed;
   width: 375px;
-  line-height: 23px;
+  line-height: 23.4px;
   background-color: var(--background-main-color);
 }
 
@@ -226,7 +226,7 @@
   }
 
   .header{
-    margin-bottom: 85px;
+    margin-bottom: 80px;
   }
 
   .header__theme-menu {
