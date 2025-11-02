@@ -6,7 +6,7 @@
   color: var(--text-color);
   font-size: 18px;
   background-attachment: fixed;
-  width: 735px;
+  width: 375px;
   background-color: var(--background-main-color);
 }
 
@@ -93,6 +93,7 @@
   color: var(--main-header-color);
   text-shadow: 4px 4px var(--title-background-fill);
   font-size: 116px;
+  margin-top: 65px;
   font-weight: bold;
   justify-self: center;
   align-self: start;
@@ -103,6 +104,7 @@
   max-width: 491px;
   width: 355px;
   height: 117px;
+  margin-top: 55px;
   align-self: end;
 }
 
@@ -241,6 +243,7 @@
 
   .section-header {
     min-width: 236px;
+    max-width: 236px;
   }
 
   .gallery {
@@ -261,8 +264,8 @@
     margin: 0;
     width: 230px;
     height: 26px;
-    top: 10px;
-    left: calc((100% - 230px)/2);
+    top: 20px;
+    left: 397px;
   }
   
   .header__theme-menu-list {
@@ -271,11 +274,13 @@
 
   .header__main-title {
     font-size: 157px;
+    margin-top: 273px;
   }
 
   .second-title {
     width: 491px;
     height: 71px;
+    margin-top: 114px;
   }
 
   .reason-section > .section-list {
