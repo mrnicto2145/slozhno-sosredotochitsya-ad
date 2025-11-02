@@ -230,7 +230,7 @@
   }
 
   .header__theme-menu {
-    margin-top: 182px; 
+    margin-top: 172px; 
   }
 
   .header__main-title {
@@ -261,6 +261,7 @@
   .section-header {
     max-width: 236px;
     min-width: 236px;
+    margin: 0;
   }
 
   .gallery {
@@ -313,7 +314,7 @@
 
   .header__main-title {
     font-size: 157px;
-    margin-top: 319px;
+    margin-top: 309px;
   }
 
   .second-title {
