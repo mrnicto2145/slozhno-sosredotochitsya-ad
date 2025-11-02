@@ -69,7 +69,7 @@
 
 .header__theme-menu {
   align-self: end;
-  margin-top: 75px;
+  margin-top: 65px;
   width: 70px;
   height: 98px;
 }
@@ -130,10 +130,6 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-}
-
-.section {
-  margin: 0 0 40px 0;
 }
 
 .section-header {
@@ -229,7 +225,7 @@
   }
 
   .header__theme-menu {
-    margin-top: 192px; 
+    margin-top: 182px; 
   }
 
   .header__main-title {
@@ -313,7 +309,7 @@
   .second-title {
     width: 491px;
     height: 71px;
-    margin-top: 114px;
+    margin-top: 104px;
   }
 
   .section-header {
