@@ -71,6 +71,7 @@
   margin-top: 65px;
   width: 70px;
   height: 98px;
+  margin-right: 10px;
 }
 
 .header__theme-menu-list {
@@ -115,7 +116,7 @@
   max-width: 491px;
   width: 355px;
   height: 117px;
-  margin-top: 55px;
+  margin-top: 60px;
   align-self: end;
   margin-right: 10px;
 }
@@ -225,11 +226,12 @@
   }
 
   .header{
-    margin-bottom: 80px;
+    margin-bottom: 75px;
   }
 
   .header__theme-menu {
-    margin-top: 182px; 
+    margin-top: 192px; 
+    margin-right: 20px;
   }
 
   .header__main-title {
@@ -237,12 +239,29 @@
     font-size: 120px;
   }  
 
+  .dec1 {
+    top: 20px;
+    right: 20px;
+  }
+
+  .dec2 {
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .lamp {
+    top: 20px;
+    right: 48px;
+  }
+
   .second-title {
     margin-top: 162px;
     width: 364px;
+    margin-right: 20px;
   }
 
   .main {
+    margin-bottom: 35px;
     gap: 80px;
   }
 
@@ -285,21 +304,6 @@
     margin-bottom: 60px;
   }
 
-  .dec1 {
-    top: 20px;
-    right: 20px;
-  }
-
-  .dec2 {
-    left: 20px;
-    bottom: 20px;
-  }
-
-  .lamp {
-    top: 20px;
-    right: 48px;
-  }
-
   .header__theme-menu {
     position: absolute;
     margin: 0;
@@ -326,6 +330,9 @@
     margin-right: 20px;
   }
 
+  .main{
+    margin-bottom: 60px;
+  }
   .section-header {
     max-width: 315px;
     min-width: 315px;
