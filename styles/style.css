@@ -19,7 +19,6 @@
   background-image: url("/images/cover-image-dark.png");
   background-attachment: fixed;
   height: 100vh;
-  padding: 10px;
 }
 
 .decoration {
@@ -118,6 +117,7 @@
   height: 117px;
   margin-top: 55px;
   align-self: end;
+  margin-right: 10px;
 }
 
 .header__second-title {
@@ -155,7 +155,6 @@
   color: var(--subheader-color);
   background-color: var(--title-background-fill);
   margin: 0;
-  grid-area: header;
 }
 
 .hint-header {
@@ -169,7 +168,7 @@
 
 .gallery {
   display: grid;
-  grid-template-areas: "header"
+  grid-template-areas:
   "image1"
   "image2"
   "image3"
@@ -230,7 +229,7 @@
   }
 
   .header__theme-menu {
-    margin-top: 172px; 
+    margin-top: 182px; 
   }
 
   .header__main-title {
@@ -265,7 +264,7 @@
   }
 
   .gallery {
-    grid-template-areas: "header header header"
+    grid-template-areas: 
     "image1 image1 image2"
     "image3 image4 image2"
     "image3 image5 image5";
@@ -283,7 +282,6 @@
   }
 
   .header {
-    padding:20px;
     margin-bottom: 60px;
   }
 
@@ -318,13 +316,14 @@
 
   .header__main-title {
     font-size: 157px;
-    margin-top: 309px;
+    margin-top: 329px;
   }
 
   .second-title {
     width: 491px;
     height: 71px;
     margin-top: 104px;
+    margin-right: 20px;
   }
 
   .section-header {
