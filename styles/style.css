@@ -7,7 +7,7 @@
   font-size: 18px;
   background-attachment: fixed;
   width: 375px;
-  line-height: 23px;
+  line-height: 24px;
   background-color: var(--background-main-color);
 }
 
@@ -252,7 +252,7 @@
   }
 
   .section-header {
-    min-width: 236px;
+    max-width: 236px;
   }
 
   .gallery {
@@ -313,7 +313,7 @@
   }
 
   .section-header {
-    min-width: 315px;
+    max-width: 315px;
   }
 
   .reason-section > .section-list {
