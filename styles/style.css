@@ -240,16 +240,15 @@
     margin-bottom: 60px;
   }
 
-  .header__theme-menu {
-    
-    margin-top: 192px; 
-    margin-right: 20px;
-  }
-
   .header__main-title {
     margin-top: 173px;
     font-size: 120px;
   }  
+
+  .header__theme-menu {
+    margin-top: 192px; 
+    margin-right: 20px;
+  }
 
   .dec1 {
     top: 20px;
