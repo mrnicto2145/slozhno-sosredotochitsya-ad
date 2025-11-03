@@ -19,6 +19,8 @@
   --header-color: var(--color-black-2);
   --text-color: var(--color-black-2);
   --dec-color: var(--color-black-2);
+  --outline-color: var(--color-black-2);
+  --o-outline-color: var(--o-color-black-2);
 }
 
 .theme-light .page {

@@ -93,6 +93,14 @@
   align-items: center;
 }
 
+.header__theme-menu-item:focus {
+  outline: 1px solid var(--title-background-fill);
+}
+
+.header__theme-menu-item:hover {
+  border-bottom: 1px solid var(--header-color);
+}
+
 .header__theme-menu-button {
   background-color: transparent;
   border: none;
@@ -177,6 +185,14 @@
 .hyperlink {
   text-decoration: none;
   text-shadow: 2px 2px var(--title-background-fill);
+}
+
+.hyperlink:hover {
+  text-decoration: underline;
+}
+
+.hyperlink:focus {
+  outline: 1px solid var(--outline-color);
 }
 
 .gallery {

@@ -19,6 +19,7 @@
   --header-color: var(--color-pink-1);
   --text-color: var(--color-pink-2);
   --dec-color: var(--color-pink-1);
+  --o-outline-color: var(--o-color-pink-2);
 }
 
 .theme-dark .page {
