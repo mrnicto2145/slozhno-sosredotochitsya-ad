@@ -16,10 +16,10 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  background-image: url("/images/cover-image-dark.png");
   background-attachment: fixed;
   height: 100vh;
 }
+
 
 .decoration {
   width: 25px;
@@ -49,6 +49,7 @@
   top: 10px;
   line-height: 25px;
   text-align: center;
+  display: var(--lamp-visibility);
 }
 
 .lamp::after {
@@ -226,7 +227,7 @@
 
 .footer__header {
   color: var(--main-header-color);
-  text-shadow: 1px 1px var(--title-background-fill);
+  text-shadow: 2px 2px var(--title-background-fill);
   font-size: 116px;
   font-weight: bold;
 }
@@ -356,5 +357,8 @@
 
   .footer__header {
     font-size: 157px;
+  }
+  .theme-light .footer__header {
+    text-shadow: 2px 2px var(--title-background-fill2);
   }
 }
