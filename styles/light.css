@@ -11,6 +11,7 @@
   */
   --main-header-color: var(--color-pink-3);
   --title-background-fill: var(--color-pink-4);
+  --title-background-fill2: var(--color-pink-1);
   --theme-switch-color: var(--color-black-2);
   --subheader-color: var(--color-black-2);
   --background-main-color: var(--color-pink-6);
@@ -18,6 +19,8 @@
   --header-color: var(--color-black-2);
   --text-color: var(--color-black-2);
   --dec-color: var(--color-black-2);
+  --outline-color: var(--color-black-2);
+  --o-outline-color: var(--o-color-black-2);
 }
 
 .theme-light .page {

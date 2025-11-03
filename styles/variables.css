@@ -6,6 +6,7 @@
   --color-purple-1: #DB00FF;
 
   --color-pink-1: #FF0070;
+  --o-color-pink-1: #FF007028;
   --color-pink-2: #F1B2CE;
   --color-pink-3: #FFC2E6;
   --color-pink-4: #FF8DCB;
@@ -13,9 +14,12 @@
 
   --color-black-1: #000028;
   --color-black-2: #353430;
+  --o-colot-black-2: #32312D28;
+
 
   --main-header-color: var(--color-pink-3);
   --title-background-fill: var(--color-pink-4);
+  --title-background-fill2: var(--color-pink-4);
   --theme-switch-color: var(--color-black-2);
   --subheader-color: var(--color-black-2);
   --background-main-color: var(--color-pink-6);
@@ -23,5 +27,54 @@
   --header-color: var(--color-black-2);
   --text-color: var(--color-black-2);
   --dec-color: var(--color-black-2);
+
+  --lamp-visibility: block;
+  --outline-color: var(--color-black-2);
+  --o-outline-color: var(--o-color-black-2);
+
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+  --main-header-color: var(--color-purple-1);
+  --title-background-fill: var(--color-pink-1);
+  --title-background-fill2: var(--color-pink-1);
+  --theme-switch-color: var(--color-pink-1);
+  --subheader-color: var(--color-black-1);
+  --section-header-color: var(--color-pink-1);
+  --background-main-color: var(--color-black-1);
+  --header-color: var(--color-pink-1);
+  --text-color: var(--color-pink-2);
+  --dec-color: var(--color-pink-1);
+
+  --lamp-visibility: block;
+  --outline-color: var(--color-pink-2);
+  --o-outline-color: var(--o-color-pink-2);
+  }
+
+  .theme-auto .header {
+    background-image: url(/images/cover-image-dark.png);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-header-color: var(--color-pink-3);
+    --title-background-fill: var(--color-pink-4);
+    --title-background-fill2: var(--color-pink-4);
+    --theme-switch-color: var(--color-black-2);
+    --subheader-color: var(--color-black-2);
+    --background-main-color: var(--color-pink-6);
+    --section-header-color: var(--color-black-2);
+    --header-color: var(--color-black-2);
+    --text-color: var(--color-black-2);
+    --dec-color: var(--color-black-2);
+    --lamp-visibility: none;
+    --outline-color: var(--color-black-2);
+    --o-outline-color: var(--o-color-black-2);
+  }
+
+  .theme-auto .header {
+    background-image: url(/images/cover-image-light.png);
+  }
+}
